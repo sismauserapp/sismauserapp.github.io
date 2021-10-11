@@ -7,10 +7,46 @@ layout: home
 
 
 <html>
+
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  /*height: 300px;  Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
+</head>
+
   <body>
     <h1>Password manager</h1>
+
+
+<div class="row">
+  <div class="column">
+  	
     <h2>Sisma is available on all major platforms and synchronizing your devices is fast and easy. We securely store your data in the cloud so you have access to it from anywhere, any time!</h2>
-    <img src="images/sisma-ss.png " alt="Sisma" style="width:200px;height:400px;">
+  </div>
+  <div class="column">
+  	    <img src="images/sisma-ss.png " alt="Sisma" style="width:300px;height:500px;">
+  </div>
+</div>
+
+
   </body>
 </html>
 
