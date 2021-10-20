@@ -11,6 +11,20 @@ layout: home
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
+  a:link,a:visited {
+   color: #0000A0;
+   background-color: #FFFFFF;
+   text-decoration: none;
+   target-new: none;
+  }
+  a:hover {
+   color: #0000FF;
+   background-color: #FFFFC0;
+   text-decoration: underline;
+   target-new: none;
+  }
+
+  
 * {
   box-sizing: border-box;
 }
@@ -51,6 +65,10 @@ layout: home
   <h>Subscription for unlimited passwords available on the Android play store</h>
   <a href='https://play.google.com/store/apps/details?id=com.talnirapps.sisma&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png'/></a>
 
+</div>
+
+<div>
+   <a href="https://sisma-6d59f.web.app/">Sisma WEB APP</a>
 </div>
 
 
